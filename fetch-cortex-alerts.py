@@ -1,12 +1,12 @@
 import http.client
 
-conn = http.client.HTTPSConnection("api-idealintegrationsxdr.xdr.us.paloaltonetworks.com")
+conn = http.client.HTTPSConnection("")
 
 payload = "{\"request_data\":{\"filters\":[{\"field\":\"severity\",\"operator\":\"in\",\"value\":[\"low\",\"medium\",\"high\"]}]}}"
 
 headers = {
-    'Authorization': "NGXu6viwq12tsuJED8PYaw4cJmpD0tajIk87h0UT5WZh9fxbHRd85oU2mE6picTXfeV4l8WzgQgDFmrGfKFOmFSpxwKFGeyppxUAyPwXCHk4W2NROtsK2UBeX8qRUQuL",
-    'x-xdr-auth-id': "3",
+    'Authorization': "",
+    'x-xdr-auth-id': "",
     'Accept-Encoding': "yes",
     'content-type': "application/json"
     }

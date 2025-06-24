@@ -14,4 +14,4 @@ filebeat.config.modules:
 
   reload.enabled: false
 output.logstash:
-  hosts: ["10.1.1.85:5044"]
+  hosts: ["192.168.14.190:5044"]
